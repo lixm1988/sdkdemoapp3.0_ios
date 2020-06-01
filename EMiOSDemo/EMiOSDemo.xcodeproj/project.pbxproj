@@ -472,14 +472,8 @@
 		90F1BED51930495800121AEC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BED41930495800121AEC /* MobileCoreServices.framework */; };
 		921C6A9E1D2A841600D8257F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921C6A9D1D2A841600D8257F /* CoreMotion.framework */; };
 		C035E8151AEA40F400283EE9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C36CA691A1EDB6200CDDD48 /* CoreData.framework */; };
-		C06300FB23E9072A00B8F277 /* Hyphenate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06300FA23E9072A00B8F277 /* Hyphenate.framework */; };
-		C06300FC23E9072A00B8F277 /* Hyphenate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C06300FA23E9072A00B8F277 /* Hyphenate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C063010323E9077500B8F277 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C063010123E9077100B8F277 /* WebRTC.framework */; };
-		C063010423E9077500B8F277 /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C063010123E9077100B8F277 /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C069A97323A246B8005AA90D /* AudioRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C069A97123A246B7005AA90D /* AudioRecord.m */; };
 		C06DBC3F23BA152900F9FA3B /* icon-tab发现unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06DBC2723BA152900F9FA3B /* icon-tab发现unselected@2x.png */; };
-		C06DBC4023BA152900F9FA3B /* tabbar_contacts_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06DBC2823BA152900F9FA3B /* tabbar_contacts_blue@3x.png */; };
-		C06DBC4123BA152900F9FA3B /* tabbar_chat_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06DBC2923BA152900F9FA3B /* tabbar_chat_gray@3x.png */; };
 		C06DBC4223BA152900F9FA3B /* icon-tab发现unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = C06DBC2A23BA152900F9FA3B /* icon-tab发现unselected.png */; };
 		C06DBC4323BA152900F9FA3B /* tabbar_chat_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06DBC2B23BA152900F9FA3B /* tabbar_chat_gray@2x.png */; };
 		C06DBC4423BA152A00F9FA3B /* tabbar_contacts_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C06DBC2C23BA152900F9FA3B /* tabbar_contacts_blue@2x.png */; };
@@ -501,6 +495,7 @@
 		FA4EB8B90BA742ADD5C8BB15 /* libPods-EMiOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A45DBE12223A08900505786 /* libPods-EMiOSDemo.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXFileReference section */
 		3A45D69D22239DE200505786 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		3A45D69E22239DE200505786 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3A45D69F22239DE200505786 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -1130,8 +1125,6 @@
 		90F1BECE1930492B00121AEC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		90F1BED41930495800121AEC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		921C6A9D1D2A841600D8257F /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		C06300FA23E9072A00B8F277 /* Hyphenate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Hyphenate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C063010123E9077100B8F277 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
 		C069A97123A246B7005AA90D /* AudioRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecord.m; sourceTree = "<group>"; };
 		C069A97223A246B7005AA90D /* AudioRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecord.h; sourceTree = "<group>"; };
 		C06DBC2723BA152900F9FA3B /* icon-tab发现unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-tab发现unselected@2x.png"; sourceTree = "<group>"; };
@@ -1180,11 +1173,9 @@
 				3C06AB0319405D330076FF0B /* MapKit.framework in Frameworks */,
 				3C06AAFF194050A00076FF0B /* CoreLocation.framework in Frameworks */,
 				3C3527451931D37900385240 /* SystemConfiguration.framework in Frameworks */,
-				C063010323E9077500B8F277 /* WebRTC.framework in Frameworks */,
 				90F1BED51930495800121AEC /* MobileCoreServices.framework in Frameworks */,
 				90F1BECF1930492B00121AEC /* AddressBook.framework in Frameworks */,
 				90F1BECD1930492300121AEC /* CFNetwork.framework in Frameworks */,
-				C06300FB23E9072A00B8F277 /* Hyphenate.framework in Frameworks */,
 				9091102C192EEA70008A48AA /* UIKit.framework in Frameworks */,
 				3A45DF3C2223A1FD00505786 /* libopencore-amrwb.a in Frameworks */,
 				90911028192EEA70008A48AA /* Foundation.framework in Frameworks */,
@@ -2301,7 +2292,6 @@
 		9091101B192EEA70008A48AA = {
 			isa = PBXGroup;
 			children = (
-				C063010123E9077100B8F277 /* WebRTC.framework */,
 				3A45D69922239DE200505786 /* EMiOSDemo */,
 				90911026192EEA70008A48AA /* Frameworks */,
 				90911025192EEA70008A48AA /* Products */,
@@ -2320,7 +2310,6 @@
 		90911026192EEA70008A48AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C06300FA23E9072A00B8F277 /* Hyphenate.framework */,
 				3A45DBE12223A08900505786 /* libPods-EMiOSDemo.a */,
 				3ACFA04E221168C000B16331 /* CoreServices.framework */,
 				3AB62A121D926375000776F0 /* libbz2.tbd */,
@@ -2998,7 +2987,6 @@
 		3A45D69A22239DE200505786 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3A45D69B22239DE200505786 /* zh-Hans */,
 				3A45D69E22239DE200505786 /* en */,
 			);
 			name = Localizable.strings;
